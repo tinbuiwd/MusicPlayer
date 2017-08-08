@@ -29,6 +29,12 @@
     isPaused = true;
     [self setupAVAudioPlayerName:@"Hon-Anh-MIN" andFileExtension:@".mp3"];
     
+    // change slider image
+    
+    [self.sliderShowCurrentTime setThumbImage:[UIImage imageNamed:@"ball"] forState:UIControlStateNormal];
+    
+    
+    
 }
 
 - (void)setupAVAudioPlayerName: (NSString*)nameSong
